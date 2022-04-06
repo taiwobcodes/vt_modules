@@ -33,5 +33,11 @@
     
     <?php submit_button(); ?>
 
+    <?php $vt_cats_dump = get_option('vtcats');
+var_dump($vt_cats_dump) ?>
+
 </form>
 </div>
+
+<?php $vt_cats_dump = get_option('vtcats');
+var_dump($vt_cats_dump) ?>
